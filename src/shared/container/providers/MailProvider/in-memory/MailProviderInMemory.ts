@@ -1,6 +1,6 @@
-import { IMailProvide } from "../IMailProvider";
+import { IMailProvider } from "../IMailProvider";
 
-class MailProviderInMemory implements IMailProvide {
+class MailProviderInMemory implements IMailProvider {
   private messsage: any[] = []
   async sendMail(
     to: string, 
